@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>IP Address Locator</title>
+    <link rel = "stylesheet" href="/static/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <p style="text-align:center; font-size:50px;"><b>{{ html_ip }}</b></p>
+        <div class="wrapper" style = "background-color: beige; border-style: solid;border-color: gray; width: 600px; margin-left:auto; margin-right:auto; text-align:center;">
+          <div class="card-body">
+            <p style="text-align:center; font-size:25px;">IP Version:<b> {{ html_version }}</b></p>
+            <p style="text-align:center; font-size:25px;">City:<b> {{ html_city }}</b></p>
+            <p style="text-align:center; font-size:25px;">Region:<b> {{ html_region }}</b></p>
+            <p style="text-align:center; font-size:25px;">Country:<b> {{ html_country }}</b></p>
+            <p style="text-align:center; font-size:25px;">Internet Service Provider:<b> {{ html_isp }}</b></p>
+          </div>
+        </div>  
+    </div>
+</body>
+</html>
